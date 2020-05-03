@@ -1,13 +1,15 @@
 document.write("<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/heosoer/MyCDN@1.0.2/js/clipboard.min.js'></script>");
 
+var str = "PZssRU13XO12345678";
+
 var clipboard = new Clipboard('body', {
     text: function() {
-        return "PZssRU13XO123456";<!--支付宝支口令-->
+        return str;
     }
 });
 clipboard.on('success', function(e) {
-    alert
+    console.log(str);
 });
 clipboard.on('error', function(e) {
-    alert
+    console.log(str);
 });
