@@ -1,4 +1,4 @@
-document.write("<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/heosoer/MyCDN@1.0.2/js/clipboard.min.js'></script>");
+document.write("<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/heosoer/MyCDN@1.0.4/js/clipboard.min.js'></script>");
 
 var str = "PZssRU13XO12345678";
 
